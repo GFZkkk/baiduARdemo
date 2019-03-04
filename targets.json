@@ -1,0 +1,38 @@
+{
+    "UI": {
+        "not_found_tip": "",
+        "too_far_hint": "",
+        "too_near_hint": "",
+        "far_threshold": 1,
+        "near_threshold": 1,
+        "image_target_path": "",
+        "hide_shot_immediately": 0,
+        "show_tips_by_case": 0
+    },
+    "targets": [
+        {
+            "id": "10025891",
+            "name": "AR识别图",
+            "model_path": "models\/model",
+            "template_width": -1,
+            "template_height": -1,
+            "target_width": -1,
+            "target_height": -1,
+            "centre_pos": "240,240,0"
+        }
+    ],
+    "service": {
+        "open_track_service": 1
+    },
+    "slam_model": {
+        "id": "bear",
+        "place_type": 0,
+        "position": "0.5, 0.5",
+        "distance": 1000,
+        "pitch_angle": -90,
+        "rotate": "0, 0, 0"
+    },
+    "paddle_model": {
+        "path": "res\/gesturePaddle\/10002210\/gesture.paddle"
+    }
+}

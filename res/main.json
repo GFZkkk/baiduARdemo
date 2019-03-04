@@ -1,0 +1,1194 @@
+{
+    "showImmediately": 0,
+    "showOffscreenGuidance": 0,
+    "imuRelayCtrlWhenTrackLost": 0,
+    "userInteraction": {
+        "disableAll": 0,
+        "disablePinch": 0,
+        "disableClick": 0,
+        "disableLongPress": 0,
+        "disableSingleFingerScroll": 0,
+        "disableTwoFingerScroll": 0,
+        "disableDoubleClick": 0,
+        "enableTouchZone": 0
+    },
+    "cameraDefaultLookAt": {
+        "eyePos": "0, 0, 1536",
+        "centerPos": "0, 0, 0",
+        "upDirection": "0, 1, 0"
+    },
+    "nodeList": [
+        {
+            "name": "mainCamera",
+            "type": "camera",
+            "visible": "1",
+            "position": "0,0,0",
+            "scale": "1,1,1",
+            "rotation": "0,0,0",
+            "children": [],
+            "cameraNodeSuppl": {
+                "fov": 60,
+                "zNear": 10,
+                "zFar": 10000
+            },
+            "resId": "10"
+        },
+        {
+            "name": "bear",
+            "type": "pod",
+            "visible": 1,
+            "touchable": 1,
+            "meshFileName": "res\/pod\/10025898\/classroom-2.pod",
+            "transparentObject": 0,
+            "material": {
+                "common": {
+                    "texturePath": "res\/pod\/10025898\/",
+                    "disableLightEffect": 0
+                }
+            },
+            "position": "0,0,0",
+            "scale": "20,20,20",
+            "rotation": "90,0,0",
+            "children": [
+                {
+                    "name": "LCD",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025807\/pingmu.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025807\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025807",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box12Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025813\/1-2-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025813\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025813",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box23Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025815\/2-3-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025815\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025815",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box23On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025816\/2-3-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025816\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025816",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box34Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025817\/3-4-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025817\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025817",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box34On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025818\/3-4-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025818\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025818",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box14Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025819\/1-4-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025819\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025819",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box14On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025820\/1-4-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025820\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025820",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box21Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025821\/2-1-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025821\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025821",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box21On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025822\/2-1-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025822\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025822",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box25Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025823\/2-5-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025823\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025823",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box12On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025814\/1-2-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025814\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025814",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box25On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025864\/2-5-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025864\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025864",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box32Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025865\/3-2-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025865\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025865",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box32On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025866\/3-2-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025866\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025866",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box11Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025867\/1-1-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025867\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025867",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box11On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025868\/1-1-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025868\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025868",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box22Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025869\/2-2-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025869\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025869",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box22On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025870\/2-2-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025870\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025870",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box31Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025871\/3-1-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025871\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025871",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box31On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025872\/3-1-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025872\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025872",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box33Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025873\/3-3-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025873\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025873",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box33On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025874\/3-3-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025874\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025874",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box13Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025875\/1-3-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025875\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025875",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box13On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025876\/1-3-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025876\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025876",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box15Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025877\/1-5-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025877\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025877",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box15On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025878\/1-5-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025878\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025878",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box24Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025879\/2-4-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025879\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025879",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box24On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025880\/2-4-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025880\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025880",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box35Off",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025881\/3-5-guan.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025881\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025881",
+                    "batchNum": 0
+                },
+                {
+                    "name": "box35On",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025882\/3-5-kai.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025882\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025882",
+                    "batchNum": 0
+                },
+                {
+                    "name": "blc",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025892\/black-L-C.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025892\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025892",
+                    "batchNum": 0
+                },
+                {
+                    "name": "blo",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025893\/black-L-O.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025893\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025893",
+                    "batchNum": 0
+                },
+                {
+                    "name": "brc",
+                    "type": "pod",
+                    "visible": 1,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025894\/black-R-C.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025894\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025894",
+                    "batchNum": 0
+                },
+                {
+                    "name": "bro",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025895\/black-R-O.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025895\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025895",
+                    "batchNum": 0
+                },
+                {
+                    "name": "blackOff",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025899\/black-close.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025899\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025899",
+                    "batchNum": 0
+                },
+                {
+                    "name": "blackOn",
+                    "type": "pod",
+                    "visible": 0,
+                    "touchable": 1,
+                    "meshFileName": "res\/pod\/10025900\/black-open.pod",
+                    "transparentObject": 0,
+                    "material": {
+                        "common": {
+                            "texturePath": "res\/pod\/10025900\/",
+                            "disableLightEffect": 0
+                        }
+                    },
+                    "position": "0,0,0",
+                    "scale": "1,1,1",
+                    "rotation": "0,0,0",
+                    "children": [],
+                    "shadow": {
+                        "allDropShadow": 0,
+                        "shadowDroppingSubNodeList": [],
+                        "allReceiveShadow": 0,
+                        "shadowReceivingSubNodeList": []
+                    },
+                    "podSuppl": {
+                        "allSubnodeTouchable": 1
+                    },
+                    "resId": "10025900",
+                    "batchNum": 0
+                },
+                {
+                    "name": "zng",
+                    "type": "plane",
+                    "visible": 0,
+                    "touchable": 1,
+                    "material": {
+                        "common": {
+                            "defaultShaderName": "planeShader",
+                            "textureList": [
+                                {
+                                    "textureName": "res/texture/zng.png"
+                                }
+                            ]
+                        }
+                    },
+                    "hudDisplay": {
+                        "marginLeft": 0.5,
+                        "marginTop": 0.5,
+                        "depthPosition": 10000,
+                        "screenRatio": {
+                            "screenWidthRatio": 1.2,
+                            "screenHeightRatio": 0.4
+                        }
+                    },
+                    "position": "0,0,0",
+                    "rotation": "90,0,0",
+                    "children": []
+                },
+                {
+                    "name":"right_1",
+                    "type":"plane",
+                    "visible":1,
+                    "touchable":1,
+                    "material":{
+                        "common":{
+                            "defaultShaderName":"planeShader",
+                            "textureList":[
+                                {
+                                    "textureName":"res/texture/resume.png"
+                                }
+                            ]
+                        }
+                    },
+                    "hudDisplay":{
+                        "marginTop":0.7,
+                        "marginLeft":0.92,
+                        "screenRatio":{
+                            "screenWidthRatio":0.1
+                        }
+                    },
+                    "transparentObject":1,
+                    "rotation":"90,0,0",
+                    "children":[]
+                }
+            ],
+            "shadow": {
+                "allDropShadow": 0,
+                "shadowDroppingSubNodeList": [],
+                "allReceiveShadow": 0,
+                "shadowReceivingSubNodeList": []
+            },
+            "podSuppl": {
+                "allSubnodeTouchable": 1
+            },
+            "resId": "10025898",
+            "batchNum": 0
+        }
+    ]
+}
