@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cl_error"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="invisible"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/nowifi"/>
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络链接失败"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff666666"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/error"
+        android:layout_marginTop="16dp"
+        android:layout_width="92dp"
+        android:layout_height="32dp"
+        android:text="点击重试"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_r5_red"/>
+</LinearLayout>

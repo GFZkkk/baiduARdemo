@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ambow.ar">
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launch"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".ARApp"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/mAppTheme">
+
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".SplashActivity"
+            android:theme="@style/AppTheme.Launcher"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IndexARActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".ContentActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            />
+    </application>
+
+</manifest>
